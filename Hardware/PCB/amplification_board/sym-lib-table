@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "MICROFC-60035-SMT-TR1")(type "KiCad")(uri "${KIPRJMOD}/../shared_libs/MICROFC-60035-SMT-TR1 (1)/MICROFC-60035-SMT-TR1.kicad_sym")(options "")(descr ""))
+  (lib (name "LT1807CMS8_PBF")(type "KiCad")(uri "${KIPRJMOD}/../shared_libs/LT1807CMS8_PBF/LT1807CMS8_PBF.kicad_sym")(options "")(descr ""))
+)
