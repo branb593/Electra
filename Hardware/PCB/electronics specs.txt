@@ -1,0 +1,25 @@
+This document is meant to define, irrevocably, the systems-level requirements and specifications of the front-end detection electronics.
+
+
+Photomultiplier biasing:
+
+A multi-order RC low-pass filter should be placed at the photodiode bias supply. Resistor values should be minimized so minimal voltage drops over them.
+
+Photodiode will be operated in avalanche-mode, with the cathode leading into the inverting input of a trans-impedance amplifier. The anode will be biased at -30 V. A gain between 50 and 100 is optimal. Clamping circuitry may be needed at the input if the op-amp doesn't natively have this.
+
+
+ADC driver:
+
+Amplified peak shall be extended in time with an active peak-detector circuit, with no load. Holding capacitor should be discharged via an analog switch IC or low off-leakage MOSFET. 
+
+
+
+
+Heaters:
+As a first pass, use insulation, hand warmers, and thermocouples.
+
+Microcontroller, Sensors, Power:
+Teensy 4.1 with built-in reader. Need a MS5611 Pressure sensor. Ardbitrary temperature sensor: needs to get down to -50C. Real time clock. Thermocouple. Power, teensy, etc will be placed on a separate PCB.
+
+Interconnections:
+Clasp cables for power and round routing, from bound to board. 12V to power board through clasp cable.
