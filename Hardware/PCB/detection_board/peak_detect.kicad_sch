@@ -1975,7 +1975,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a9c6063-dfba-4c7c-8e89-21679a9f8fbe")
-		(property "Reference" "U5"
+		(property "Reference" "U4"
 			(at 201.93 97.7198 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1985,8 +1985,9 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "OPA365"
 			(at 182.88 101.6 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2046,7 +2047,7 @@
 		(instances
 			(project "detection_board"
 				(path "/871ea243-9d20-4c93-850f-9fe294f22536/0ec79d7b-5798-4abd-9d80-52c9ef728fe7"
-					(reference "U5")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -2063,7 +2064,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "10b9993c-f2ad-4b3f-abcd-6778aace79fa")
-		(property "Reference" "C304"
+		(property "Reference" "C305"
 			(at 172.72 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2127,7 +2128,7 @@
 		(instances
 			(project "detection_board"
 				(path "/871ea243-9d20-4c93-850f-9fe294f22536/0ec79d7b-5798-4abd-9d80-52c9ef728fe7"
-					(reference "C304")
+					(reference "C305")
 					(unit 1)
 				)
 			)
@@ -2459,7 +2460,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4b2bcda4-bea0-406c-9f14-b59e4324501a")
-		(property "Reference" "C305"
+		(property "Reference" "C303"
 			(at 106.68 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2523,7 +2524,7 @@
 		(instances
 			(project "detection_board"
 				(path "/871ea243-9d20-4c93-850f-9fe294f22536/0ec79d7b-5798-4abd-9d80-52c9ef728fe7"
-					(reference "C305")
+					(reference "C303")
 					(unit 1)
 				)
 			)
@@ -2775,7 +2776,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6a737c73-434f-4c47-993f-f9fc42227e5f")
-		(property "Reference" "C303"
+		(property "Reference" "C304"
 			(at 132.08 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2839,7 +2840,7 @@
 		(instances
 			(project "detection_board"
 				(path "/871ea243-9d20-4c93-850f-9fe294f22536/0ec79d7b-5798-4abd-9d80-52c9ef728fe7"
-					(reference "C303")
+					(reference "C304")
 					(unit 1)
 				)
 			)
@@ -2944,7 +2945,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "LT1807"
 			(at 105.41 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3118,7 +3119,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8234708b-5907-451e-ad4d-946341c84113")
-		(property "Reference" "R301"
+		(property "Reference" "R302"
 			(at 144.78 105.41 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3180,7 +3181,7 @@
 		(instances
 			(project "detection_board"
 				(path "/871ea243-9d20-4c93-850f-9fe294f22536/0ec79d7b-5798-4abd-9d80-52c9ef728fe7"
-					(reference "R301")
+					(reference "R302")
 					(unit 1)
 				)
 			)
@@ -3354,7 +3355,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a47b3a88-2ceb-4a1b-b0dd-630b1f724382")
-		(property "Reference" "U3"
+		(property "Reference" "U5"
 			(at 179.07 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3426,7 +3427,7 @@
 		(instances
 			(project "detection_board"
 				(path "/871ea243-9d20-4c93-850f-9fe294f22536/0ec79d7b-5798-4abd-9d80-52c9ef728fe7"
-					(reference "U3")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -3444,7 +3445,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5c11b74-2e13-408b-9ce9-f96ca554ca50")
-		(property "Reference" "C00"
+		(property "Reference" "C302"
 			(at 111.76 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3508,7 +3509,7 @@
 		(instances
 			(project "detection_board"
 				(path "/871ea243-9d20-4c93-850f-9fe294f22536/0ec79d7b-5798-4abd-9d80-52c9ef728fe7"
-					(reference "C00")
+					(reference "C302")
 					(unit 1)
 				)
 			)
@@ -3681,7 +3682,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f34ec964-1dd0-46d0-86ec-83ce8fb4cf3a")
-		(property "Reference" "R302"
+		(property "Reference" "R301"
 			(at 129.54 111.76 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3743,7 +3744,7 @@
 		(instances
 			(project "detection_board"
 				(path "/871ea243-9d20-4c93-850f-9fe294f22536/0ec79d7b-5798-4abd-9d80-52c9ef728fe7"
-					(reference "R302")
+					(reference "R301")
 					(unit 1)
 				)
 			)
