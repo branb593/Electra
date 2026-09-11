@@ -240,7 +240,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -659,13 +659,26 @@
       {
         "filename": "detection_board.kicad_sch",
         "name": "detection_board",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "871ea243-9d20-4c93-850f-9fe294f22536"
       }
     ],
     "used_designators": "",
     "variants": []
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "871ea243-9d20-4c93-850f-9fe294f22536",
+      "detection_board"
+    ],
+    [
+      "08fd595b-02df-4a61-8399-858a89ae5419",
+      "pm_bias"
+    ],
+    [
+      "0ec79d7b-5798-4abd-9d80-52c9ef728fe7",
+      "peak_detect"
+    ]
+  ],
   "text_variables": {},
   "tuning_profiles": {
     "meta": {
