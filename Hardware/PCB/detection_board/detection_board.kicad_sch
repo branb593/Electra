@@ -11,7 +11,7 @@
 		(company "UMD Nearspace Balloon Payload Program")
 	)
 	(lib_symbols
-		(symbol "Connector:DE9_Pins_MountingHoles"
+		(symbol "Connector:DE9_Socket_MountingHoles"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -31,7 +31,7 @@
 					)
 				)
 			)
-			(property "Value" "DE9_Pins_MountingHoles"
+			(property "Value" "DE9_Socket_MountingHoles"
 				(at 0 14.605 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -63,7 +63,7 @@
 					)
 				)
 			)
-			(property "Description" "9-pin D-SUB connector, pins (male), Mounting Hole"
+			(property "Description" "9-pin D-SUB connector, socket (female), Mounting Hole"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -85,7 +85,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "DSUB*Pins*"
+			(property "ki_fp_filters" "DSUB*Socket*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -96,7 +96,19 @@
 					)
 				)
 			)
-			(symbol "DE9_Pins_MountingHoles_0_1"
+			(symbol "DE9_Socket_MountingHoles_0_1"
+				(polyline
+					(pts
+						(xy -3.81 13.335) (xy -3.81 -13.335) (xy 3.81 -9.525) (xy 3.81 9.525) (xy -3.81 13.335)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(polyline
 					(pts
 						(xy -3.81 10.16) (xy -2.54 10.16)
@@ -205,18 +217,6 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -3.81 -13.335) (xy -3.81 13.335) (xy 3.81 9.525) (xy 3.81 -9.525) (xy -3.81 -13.335)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
 				(circle
 					(center -1.778 10.16)
 					(radius 0.762)
@@ -225,7 +225,7 @@
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(circle
@@ -236,7 +236,7 @@
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(circle
@@ -247,7 +247,7 @@
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(circle
@@ -258,7 +258,7 @@
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(circle
@@ -269,7 +269,7 @@
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(circle
@@ -280,7 +280,7 @@
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(circle
@@ -291,7 +291,7 @@
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(circle
@@ -302,7 +302,7 @@
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(circle
@@ -313,13 +313,13 @@
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 			)
-			(symbol "DE9_Pins_MountingHoles_1_1"
+			(symbol "DE9_Socket_MountingHoles_1_1"
 				(pin passive line
-					(at -7.62 -10.16 0)
+					(at -7.62 10.16 0)
 					(length 3.81)
 					(name "1"
 						(effects
@@ -337,7 +337,7 @@
 					)
 				)
 				(pin passive line
-					(at -7.62 -5.08 0)
+					(at -7.62 5.08 0)
 					(length 3.81)
 					(name "2"
 						(effects
@@ -373,7 +373,7 @@
 					)
 				)
 				(pin passive line
-					(at -7.62 5.08 0)
+					(at -7.62 -5.08 0)
 					(length 3.81)
 					(name "4"
 						(effects
@@ -391,7 +391,7 @@
 					)
 				)
 				(pin passive line
-					(at -7.62 10.16 0)
+					(at -7.62 -10.16 0)
 					(length 3.81)
 					(name "5"
 						(effects
@@ -409,7 +409,7 @@
 					)
 				)
 				(pin passive line
-					(at -7.62 -7.62 0)
+					(at -7.62 7.62 0)
 					(length 3.81)
 					(name "6"
 						(effects
@@ -427,7 +427,7 @@
 					)
 				)
 				(pin passive line
-					(at -7.62 -2.54 0)
+					(at -7.62 2.54 0)
 					(length 3.81)
 					(name "7"
 						(effects
@@ -445,7 +445,7 @@
 					)
 				)
 				(pin passive line
-					(at -7.62 2.54 0)
+					(at -7.62 -2.54 0)
 					(length 3.81)
 					(name "8"
 						(effects
@@ -463,7 +463,7 @@
 					)
 				)
 				(pin passive line
-					(at -7.62 7.62 0)
+					(at -7.62 -7.62 0)
 					(length 3.81)
 					(name "9"
 						(effects
@@ -1067,7 +1067,7 @@
 		)
 		(uuid "dae21da4-ce73-43d7-b67d-b848bb0d67da")
 	)
-	(text "Detection Board-Side Internal Harnessing"
+	(text "Detection Board-Side Harnessing"
 		(exclude_from_sim no)
 		(at 220.345 100.965 0)
 		(effects
@@ -1122,7 +1122,7 @@
 		)
 		(uuid "f53ef624-09b7-46c3-b9a2-f22cfcbb990b")
 	)
-	(text_box "TSP designators: external twisted shielded pair.\nW designators: external single unshielded wire.\n\nPin 9 GND: 20 AWG; Others: 24 AWG\n\nDrain wires terminate to ground plane through connector housing.\n"
+	(text_box "TSP designators: twisted shielded pair.\nW designators: single unshielded wire.\n\nPin 9 GND: 20 AWG; Others: 24 AWG\n\nDrain wires terminate to ground plane through connector housing.\n"
 		(exclude_from_sim no)
 		(at 194.945 140.4893 0)
 		(size 50.8 18.2607)
@@ -1146,7 +1146,7 @@
 		(at 255.27 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "420ee066-aab1-4aec-8f91-866c781483fd")
+		(uuid "7de89210-b4d2-439d-822b-84856a677df6")
 	)
 	(polyline
 		(pts
@@ -1717,112 +1717,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:DE9_Pins_MountingHoles")
-		(at 255.27 120.65 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "682ba53f-d5c7-46bc-96e0-15b608d50c10")
-		(property "Reference" "J1"
-			(at 260.35 119.3799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DE9_Pins"
-			(at 260.35 121.9199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Dsub:DSUB-9_Pins_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset4.94mm"
-			(at 255.27 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 255.27 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "9-pin D-SUB connector, pins (male), Mounting Hole"
-			(at 255.27 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1fb566fe-aff6-46c2-8223-c17939dc3d64")
-		)
-		(pin "7"
-			(uuid "5df6992e-e947-4380-a24d-428d7cc512b0")
-		)
-		(pin "4"
-			(uuid "d67ad83d-cf9f-41df-ad53-248f503e9c52")
-		)
-		(pin "SH"
-			(uuid "c2a47577-9bdc-457b-b77b-b2a4099f795f")
-		)
-		(pin "6"
-			(uuid "6bead695-d4b8-4b01-a8c1-b95a5f2527c4")
-		)
-		(pin "3"
-			(uuid "85e8e666-8e30-4768-b385-eb1257b114a4")
-		)
-		(pin "5"
-			(uuid "a6e72969-996d-4c3f-b9ac-26ab245ac51c")
-		)
-		(pin "9"
-			(uuid "4dd7ca23-749f-47c7-87c6-0951d748b2b9")
-		)
-		(pin "8"
-			(uuid "1eeb9f75-9a97-4a9d-a09b-b201280c4352")
-		)
-		(pin "2"
-			(uuid "6602a02a-5d00-4459-92fe-a690026394e1")
-		)
-		(instances
-			(project "detection_board"
-				(path "/871ea243-9d20-4c93-850f-9fe294f22536"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 255.27 135.89 270)
 		(unit 1)
@@ -1896,6 +1790,112 @@
 			(project "detection_board"
 				(path "/871ea243-9d20-4c93-850f-9fe294f22536"
 					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:DE9_Socket_MountingHoles")
+		(at 255.27 120.65 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8b162e7-9512-44d3-bccd-8df207edfa99")
+		(property "Reference" "J1"
+			(at 260.35 119.3799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DE9_Socket_MountingHoles"
+			(at 260.35 121.9199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-9_Pins_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset4.94mm"
+			(at 255.27 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "9-pin D-SUB connector, socket (female), Mounting Hole"
+			(at 255.27 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "72c79cee-ca98-45b4-89ce-a42036c1483c")
+		)
+		(pin "2"
+			(uuid "fd282bd1-0f51-4c38-a852-815c2a85f74c")
+		)
+		(pin "3"
+			(uuid "4592a67d-36a0-4c34-a154-25cfc9174ef0")
+		)
+		(pin "5"
+			(uuid "076cb17c-9913-4655-85e8-f91469b5c244")
+		)
+		(pin "4"
+			(uuid "237c4d24-2144-4ea0-a6b4-cfe426d98e47")
+		)
+		(pin "6"
+			(uuid "6c31fa58-63ac-4f4f-a323-83a162485920")
+		)
+		(pin "8"
+			(uuid "2d32b692-c90f-4735-a914-6a16bb37047d")
+		)
+		(pin "9"
+			(uuid "42b12532-cc08-4c2c-b711-6c29853ce6fd")
+		)
+		(pin "SH"
+			(uuid "502a9fa4-a37e-45bf-82fc-9d2847a3421f")
+		)
+		(pin "7"
+			(uuid "8a5cac68-5098-4ae1-b6ea-6c121cec97ff")
+		)
+		(instances
+			(project "detection_board"
+				(path "/871ea243-9d20-4c93-850f-9fe294f22536"
+					(reference "J1")
 					(unit 1)
 				)
 			)
