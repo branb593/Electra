@@ -1,0 +1,6 @@
+Brandon's proposed design workflow for remaking payload:
+
+1) Do rough schematic entry in KiCAD
+2) Verify signal integrity in Keysight ADS (transient controller)
+3) Iterate KiCAD schematic
+4) PCB layout in KiCAD, verification in ADS iterate
