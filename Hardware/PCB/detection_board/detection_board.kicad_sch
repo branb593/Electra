@@ -3687,7 +3687,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 226.06 50.8 0)
+		(at 227.33 53.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3698,7 +3698,7 @@
 		(fields_autoplaced yes)
 		(uuid "7e65e2c6-3fe0-4f05-a6ab-2933b80b0a07")
 		(property "Reference" "H1"
-			(at 228.6 49.5299 0)
+			(at 229.87 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3709,7 +3709,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 228.6 52.0699 0)
+			(at 229.87 54.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3720,7 +3720,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
-			(at 226.06 50.8 0)
+			(at 227.33 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3731,7 +3731,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 226.06 50.8 0)
+			(at 227.33 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3742,7 +3742,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 226.06 50.8 0)
+			(at 227.33 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

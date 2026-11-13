@@ -2984,7 +2984,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "15k"
 			(at 179.07 110.4899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3145,7 +3145,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "150k"
+		(property "Value" "200k"
 			(at 205.74 106.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3226,7 +3226,7 @@
 				)
 			)
 		)
-		(property "Value" "50"
+		(property "Value" "45"
 			(at 173.99 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4294,7 +4294,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "5k"
 			(at 185.42 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4612,7 +4612,7 @@
 				)
 			)
 		)
-		(property "Value" "30"
+		(property "Value" "45"
 			(at 218.44 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4853,7 +4853,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "300"
+		(property "Value" "500"
 			(at 179.07 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)

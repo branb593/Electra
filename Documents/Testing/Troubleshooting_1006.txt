@@ -1,0 +1,4 @@
+1. Zoom in on noise -> see if this is oscillations or truly "noise". Do this with and without the 0 ohm jumper connected.
+2. If it does this even without 0 ohm jumper, try more supply decoupling and changing output resistor to larger value (100-200 ohms)
+3. If oscillation dies out when jumper is removed, remove peak detector cap and see if oscillation continues. Replace with smaller one or add in series resistor if necessary. Can also try 0.1u and 10p decoupling caps at power supply.
+4. Note that I made potentially a design mistake with the slewing diode. Needs to be flipped.
